@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Storj Plugin",
+  "name_for_model": "storj",
+  "description_for_human": "Plugin for interacting with the Storj decentralized cloud storage network.",
+  "description_for_model": "Plugin for interacting with the Storj decentralized cloud storage network. You can create and manage buckets, upload and download files, and list files in a bucket.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "http://localhost:3333/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "http://localhost:3333/logo.png",
+  "contact_email": "kleffew94@gmail.com",
+  "legal_info_url": "kleffew94@gmail.com"
+}
